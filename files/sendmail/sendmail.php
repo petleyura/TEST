@@ -32,12 +32,12 @@
 	//Тіло листа
 	$body = '<h1>Зустрічайте супер листа!</h1>';
 
-	if(trim(!empty($_POST['email']))){
-		$body.="<h2>E-mail <strong>"$_POST['email']"</strong></h2>";
-	}	
-	if(trim(!empty($_POST['message']))){
-		$body.="<p>Message <strong>"$_POST['message']"</strong></p>";
-	}	
+		if(trim(!empty($_POST['email']))){
+		$body.="<h2>E-mail <strong>" . $_POST['email'] . "</strong></h2>";
+  }	
+  if(trim(!empty($_POST['message']))){
+		$body.="<p>Message <strong>" . $_POST['message'] . "</strong></p>";
+  }
 	
 	/*
 	//Прикріпити файл
